@@ -59,7 +59,7 @@ const displayNote = (note) => {
 const renderActiveNote = () => {
   hide(saveNoteBtn);
   console.log(activeNote);
-  if (activeNote) {
+  if (activeNote && activeNote.title && activeNote.text) {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
