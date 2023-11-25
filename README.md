@@ -11,7 +11,7 @@ Note Taker is a convenient application for writing and saving notes. It features
 
 ## Installation
 1. **Clone the Repository**: 
-git clone [https://github.com/vincula1/notetaker]
+git clone [[repo-link]](https://github.com/vincula1/notetaker)
 
 2. **Install Dependencies**: 
 npm install
