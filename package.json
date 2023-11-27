@@ -4,10 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node Develop/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "18.18.2"
+  },
   "dependencies": {
     "express": "^4.16.4"
   }
